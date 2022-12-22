@@ -1,0 +1,24 @@
+{
+  "name": "middleware-example",
+  "version": "0.0.0",
+  "private": true,
+  "scripts": {
+    "start": "node ./bin/www"
+  },
+  "dependencies": {
+    "connect-flash": "^0.1.1",
+    "cookie-parser": "~1.4.4",
+    "debug": "~2.6.9",
+    "express": "~4.16.1",
+    "express-brute": "^1.0.1",
+    "express-brute-redis": "0.0.1",
+    "express-rate-limit": "^6.7.0",
+    "http-errors": "~1.6.3",
+    "ioredis": "^5.2.4",
+    "morgan": "~1.9.1",
+    "ms": "^2.1.3",
+    "pug": "2.0.0-beta11",
+    "rate-limiter-flexible": "^2.4.1",
+    "redis": "^4.5.1"
+  }
+}
